@@ -1,8 +1,7 @@
-
 <script setup>
-import { ref } from 'vue'
+
 import logo from '../assets/img/logo.png'
-const count = ref(0);
+
 </script>
 
 <template>

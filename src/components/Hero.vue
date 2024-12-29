@@ -1,10 +1,15 @@
 <script setup>
-defineProps({
-  title :{
-    type:string,
-    default:'Devenez un développeur Vue'
-  }
-})
+import { defineProps } from 'vue';
+ defineProps({
+  title: {
+     type: String,
+     default: 'Devenez un développeur Vue',
+ },
+  subtitle: {
+     type: String,
+     default: 'Trouvez l\'emploi Vue qui correspond à vos compétences et à vos besoins',
+ },
+ });
 </script>
 
 
@@ -19,10 +24,10 @@ defineProps({
           <h1
             class="text-4xl font-extrabold text-white sm:text-6xl md:text-7xl"
           >
-          Devenez un développeur Vue
+          {{ title }}
           </h1>
           <p class="my-4 text-xl text-white">
-            Find the Vue job that fits your skills and needs 
+            {{ subtitle }}
           </p>
         </div>
       </div>

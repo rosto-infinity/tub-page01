@@ -4,6 +4,6 @@
   </script>
 
 <template>
-  <Navbar title="Test Title"/>
-  <Hero />
+  <Navbar />
+  <Hero :title="title" :subtitle="subtitle"/>
 </template>
