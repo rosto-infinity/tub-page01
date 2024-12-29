@@ -1,6 +1,10 @@
-
 <script setup>
-
+defineProps({
+  title :{
+    type:string,
+    default:'Devenez un développeur Vue'
+  }
+})
 </script>
 
 
@@ -13,17 +17,17 @@
       >
         <div class="text-center">
           <h1
-            class="text-4xl font-extrabold text-white sm:text-5xl md:text-6xl"
+            class="text-4xl font-extrabold text-white sm:text-6xl md:text-7xl"
           >
           Devenez un développeur Vue
           </h1>
           <p class="my-4 text-xl text-white">
-            Find the Vue job that fits your skills and needs
+            Find the Vue job that fits your skills and needs 
           </p>
         </div>
       </div>
     </section>
-
+    
 </template>
 
 

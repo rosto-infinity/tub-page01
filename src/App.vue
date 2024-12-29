@@ -4,6 +4,6 @@
   </script>
 
 <template>
-  <Navbar />
+  <Navbar title="Test Title"/>
   <Hero />
 </template>
