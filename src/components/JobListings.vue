@@ -5,6 +5,7 @@ import { ref } from 'vue';
 
 defineProps({
   limit: Number,
+  showButton:{ Boolean, default: true}
 })
 
 const jobs = ref(JobData);
@@ -23,5 +24,13 @@ const jobs = ref(JobData);
       </div>
     </div>
   </section>
-
+  
+  <section v-if="showButton"
+  class="m-auto my-10 max-w-lg px-6">
+      <a
+        href="jobs.html"
+        class="block rounded-xl bg-black px-6 py-4 text-center text-white hover:bg-gray-700"
+        >Voir tous les emplois</a
+      >
+    </section>
 </template>
