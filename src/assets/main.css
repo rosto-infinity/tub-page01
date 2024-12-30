@@ -4,7 +4,7 @@
 
 @font-face {
   font-family: 'Arial Rounded';
-  src: url('./assets/font/2-ARIAL-ROUNDED-MT.TTF') format('truetype');
+  src: url('./font/2-ARIAL-ROUNDED-MT.TTF') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
