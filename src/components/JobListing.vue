@@ -42,14 +42,14 @@ const truncatedDescription = computed(() => {
 
               <div class="mb-4 flex flex-col justify-between lg:flex-row">
                 <div class="mb-3 text-orange-700">
-                  <i class="fa-solid fa-location-dot text-lg"></i>
+                  <i class="pi pi-map-marker text-orange-700"></i>
                   {{ job.location}}
                 </div>
                 <a
-                  href="job.html"
+                  :href="'/job/' + job.id"
                   class="h-[36px] rounded-lg bg-green-500 px-4 py-2 text-center text-sm text-white hover:bg-green-600"
                 >
-                  Lire plus
+                  En savoir plus
                 </a>
               </div>
             </div>
