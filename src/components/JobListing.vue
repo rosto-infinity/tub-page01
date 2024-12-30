@@ -3,8 +3,12 @@ import { ref, computed } from 'vue'
 const props = defineProps({
   job: Object
 });
-
 const showFullDescription = ref(false);
+
+const toggleFullDescription = () => {
+  showFullDescription.value = !showFullDescription.value;
+};
+
 const truncatedDescription = computed(() => {
  let description = props.job.description;
   if (!showFullDescription.value) {
@@ -23,10 +27,16 @@ const truncatedDescription = computed(() => {
               </div>
 
               <div class="mb-5">
+              <div>
                 {{ truncatedDescription}}
+              </div><button class="mb-5 text-green-500 hover:text-green-600" @click="toggleFullDescription">
+                <!-- <span v-if="!showFullDescription">Lire plus</span>
+                <span v-else>Cacher</span> -->
+                {{ showFullDescription ? 'Cacher' : 'Lire plus'}}
+              </button>
               </div>
 
-              <h3 class="mb-2 text-green-500">{{ job.salary}} $ par an</h3>
+              <h3 class="mb-2 text-green-500">{{ job.salary}}  / An</h3>
 
               <div class="mb-5 border border-gray-100"></div>
 
