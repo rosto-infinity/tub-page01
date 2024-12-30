@@ -3,9 +3,12 @@ import JobData from './jobs.json';
 import JobListing from './JobListing.vue';
 import { ref } from 'vue';
 
+defineProps({
+  limit: Number,
+})
+
 const jobs = ref(JobData);
 // console.log(jobs.value[0].company.description);
-
 </script>
 
 
@@ -14,7 +17,9 @@ const jobs = ref(JobData);
     <div class="container-xl mx-auto lg:container">
       <h2 class="mb-6 text-center text-3xl font-bold text-green-500 underline" >Parcourir les offres d'emploi</h2>
       <div class="grid grid-cols-1 gap-6 md:grid-cols-3">
-        <JobListing v-for="job in jobs" :key="job.id" :job="job" />
+        <JobListing v-for="job in jobs.slice(0, limit || jobs.length)"
+         :key="job.id"
+         :job="job" />
       </div>
     </div>
   </section>
