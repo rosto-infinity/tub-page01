@@ -12,30 +12,30 @@ import logo from '../assets/img/logo.png'
             class="flex flex-1 items-center justify-center md:items-stretch md:justify-start"
           >
             <!-- Logo -->
-            <a class="mr-4 flex flex-shrink-0 items-center" href="index.html">
+            <RouterLink class="mr-4 flex flex-shrink-0 items-center" to="/">
             <div class="flex h-12 w-12 items-center justify-center rounded-full bg-white">
               <img class="h-8 w-auto" :src="logo" alt="Vue Jobs" />
             </div>
               <span class="ml-2 hidden text-2xl font-bold text-white md:block"
                 >Devinsto</span
               >
-            </a>
+            </RouterLink>
             <div class="md:ml-auto">
               <div class="flex space-x-2">
-                <a
-                  href="/"
+                <RouterLink
+                  to="/"
                   class="rounded-md bg-green-900 px-3 py-2 text-white hover:bg-gray-900 hover:text-white"
-                  >Home</a
+                  >Home</RouterLink
                 >
-                <a
-                  href="/jobs"
+                <RouterLink
+                  to="/jobs"
                   class="rounded-md px-3 py-2 text-white hover:bg-green-900 hover:text-white"
-                  >Jobs</a
+                  >Jobs</RouterLink
                 >
-                <a
-                  href="jobs/add"
+                <RouterLink
+                  to="jobs/add"
                   class="rounded-md px-3 py-2 text-white hover:bg-green-900 hover:text-white"
-                  >Add Job</a
+                  >Add Job</RouterLink
                 >
               </div>
             </div>

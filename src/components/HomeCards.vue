@@ -1,4 +1,5 @@
 <script setup>
+import {RouterLink} from 'vue-router';
 import Card from './Card.vue';
 
 </script>
@@ -14,24 +15,24 @@ import Card from './Card.vue';
             <p class="mb-4 mt-2">
               Parcourez nos offres d'emploi Vue et démarrez votre carrière dès aujourd'hui
             </p>
-            <a
-              href="jobs.html"
+            <RouterLink
+              to="/jobs"
               class="inline-block rounded-lg bg-black px-4 py-2 text-white hover:bg-gray-700"
             >
             Parcourir les emplois
-            </a>
+            </RouterLink>
           </Card>
           <Card bg="bg-green-100">
             <h2 class="text-2xl font-bold">Pour les employeurs</h2>
             <p class="mb-4 mt-2">
               Répertoriez votre travail pour trouver le développeur idéal pour le poste
             </p>
-            <a
-              href="add-job.html"
+            <RouterLink
+              to="jobs/add"
               class="inline-block rounded-lg bg-green-500 px-4 py-2 text-white hover:bg-green-600"
             >
               Add Job
-            </a>
+            </RouterLink>
           </Card>
         </div>
       </div>
