@@ -23,17 +23,17 @@ import logo from '../assets/img/logo.png'
             <div class="md:ml-auto">
               <div class="flex space-x-2">
                 <a
-                  href="index.html"
+                  href="/"
                   class="rounded-md bg-green-900 px-3 py-2 text-white hover:bg-gray-900 hover:text-white"
                   >Home</a
                 >
                 <a
-                  href="jobs.html"
+                  href="/jobs"
                   class="rounded-md px-3 py-2 text-white hover:bg-green-900 hover:text-white"
                   >Jobs</a
                 >
                 <a
-                  href="add-job.html"
+                  href="jobs/add"
                   class="rounded-md px-3 py-2 text-white hover:bg-green-900 hover:text-white"
                   >Add Job</a
                 >
