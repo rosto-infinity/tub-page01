@@ -1,4 +1,6 @@
 <script setup>
+
+// Ce code Vue.js définit un composant JobListing qui affiche une description de poste avec la possibilité de basculer entre une description tronquée et une description complète. Voici une explication détaillée :
 import{RouterLink} from 'vue-router';
 import { ref, computed } from 'vue'
 const props = defineProps({
