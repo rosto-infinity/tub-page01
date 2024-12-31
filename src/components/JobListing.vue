@@ -47,7 +47,7 @@ const truncatedDescription = computed(() => {
                   {{ job.location}}
                 </div>
                 <RouterLink
-                  :to="'/job/' + job.id"
+                  :to="'/jobs/' + job.id"
                   class="h-[36px] rounded-lg bg-green-500 px-4 py-2 text-center text-sm text-white hover:bg-green-600"
                 >
                   En savoir plus
