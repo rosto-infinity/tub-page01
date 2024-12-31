@@ -5,7 +5,7 @@ import logo from '../assets/img/logo.png'
 </script>
 
 <template>
-  <nav class="sticky top-0 z-10 border-b border-green-500 bg-green-700 shadow-lg">
+  <nav class="sticky top-0 z-10 border-b border-[#07e283] bg-[#020420] shadow-lg">
       <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div class="flex h-20 items-center justify-between">
           <div
@@ -24,17 +24,17 @@ import logo from '../assets/img/logo.png'
               <div class="flex space-x-2">
                 <RouterLink
                   to="/"
-                  class="rounded-md bg-green-900 px-3 py-2 text-white hover:bg-gray-900 hover:text-white"
+                  class="rounded-md bg-[#07e283] px-3 py-2 text-white hover:bg-[#039255] hover:text-white"
                   >Home</RouterLink
                 >
                 <RouterLink
                   to="/jobs"
-                  class="rounded-md px-3 py-2 text-white hover:bg-green-900 hover:text-white"
+                  class="rounded-md px-3 py-2 text-white hover:bg-[#039255] hover:text-white"
                   >Jobs</RouterLink
                 >
                 <RouterLink
                   to="jobs/add"
-                  class="rounded-md px-3 py-2 text-white hover:bg-green-900 hover:text-white"
+                  class="rounded-md px-3 py-2 text-white hover:bg-[#039255] hover:text-white"
                   >Add Job</RouterLink
                 >
               </div>
