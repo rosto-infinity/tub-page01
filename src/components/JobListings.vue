@@ -21,6 +21,15 @@ onMounted(async () => {
     state.jobs= response.data;
   } catch (error){
     console.error('Error fetching jobs', error);
+
+  //   try {
+  //   const response = await axios.get('http://localhost:5000/jobs');
+  //   // Simulate a 2-second delay
+  //   await new Promise((resolve) => setTimeout(resolve, 3000));
+  //   state.jobs = response.data;
+  // } catch (error) {
+  //   console.error('Error fetching jobs:', error);
+
   }finally{
     state.isLoading = false;
   }

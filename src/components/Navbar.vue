@@ -9,7 +9,7 @@ const isActiveLink = (routePath) => {
 </script>
 
 <template>
-  <nav class="sticky top-0 z-10 border-b border-[#07e283] bg-[#020420] shadow-lg">
+  <nav class="sticky top-0 z-10 border-b border-[#07e283] bg-[#0a1a0a] shadow-lg">
       <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
         <div class="flex h-20 items-center justify-between">
           <div

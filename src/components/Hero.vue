@@ -16,7 +16,7 @@ import { defineProps } from 'vue';
 
 <template>
   <!-- Hero -->
-  <section class="mb-4 bg-[#020420] py-20">
+  <section class="mb-4 bg-[#0a1a0a] py-20">
       <div
         class="mx-auto flex max-w-7xl flex-col items-center px-4 sm:px-6 lg:px-8"
       >
