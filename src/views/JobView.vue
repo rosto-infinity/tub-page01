@@ -110,7 +110,7 @@ onMounted(async () => {
         </button>
         <button @click="deleteJob"
           class="rounded-full bg-red-500 px-4 py-2 font-bold text-white hover:bg-red-600 focus:outline-none">
-          Delete
+          Supprimer
         </button>
       </div>
     </div>
