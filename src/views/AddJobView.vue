@@ -1,4 +1,20 @@
+
 <script setup>
+import { reactive } from 'vue';
+
+const form = reactive({
+  type: 'Full-Time',
+  title: '',
+  description: '',
+  salary: '',
+  location: '',
+  company:{ 
+    name: '',
+ description: '',
+  contactEmail: '',
+  contactPhone: '',
+}
+});
 </script>
 <template>
   <section class="bg-green-50">
