@@ -9,7 +9,9 @@
   const jobId = route.params.id;
   
   const state = reactive({
-    job: {},
+    jobs: {
+      company: {},
+    },
     isLoading: true,
   });
 
@@ -20,7 +22,8 @@
     state.job= response.data;
 
   } catch (error){
-    console.error('Error fetching job', error);
+    console.error('Erreur lors de la récupération de l\'emploi', error);
+      state.job = null;
   }finally{
     state.isLoading = false;
   }
@@ -49,35 +52,29 @@
 
           <div class="mt-6 rounded-lg bg-white p-6 shadow-md">
             <h3 class="mb-6 text-lg font-bold text-green-800">
-              {{ state.job.description}}
+              Job Description
             </h3>
 
             <p class="mb-4">
-              We are seeking a talented Front-End Developer to join our team
-              in Boston, MA. The ideal candidate will have strong skills in
-              HTML, CSS, and JavaScript, with experience working with modern
-              JavaScript frameworks such as Vue or Angular.
+              {{ state.job.description }}
             </p>
 
             <h3 class="mb-2 text-lg font-bold text-green-800">Salary</h3>
 
-            <p class="mb-4">{{ state.job.salary}} / Year</p>
+            <p class="mb-4">{{ state.job.salary }} / Year</p>
           </div>
         </main>
-
+       
         <!-- Sidebar -->
-        <aside class="">
+        <aside v-if="state.job" class="">
           <!-- Company Info -->
           <div class="rounded-lg bg-white p-6 shadow-md">
             <h3 class="mb-6 text-xl font-bold">Company Info</h3>
 
-            <h2 class="text-2xl">NewTek Solutions</h2>
+            <h2 class="text-2xl"> {{ state.job.company.name }}</h2>
 
             <p class="my-2">
-              NewTek Solutions is a leading technology company specializing in
-              web development and digital solutions. We pride ourselves on
-              delivering high-quality products and services to our clients
-              while fostering a collaborative and innovative work environment.
+              {{ state.job.company.description }}
             </p>
 
             <hr class="my-4" />
@@ -85,26 +82,34 @@
             <h3 class="text-xl">Contact Email:</h3>
 
             <p class="my-2 bg-green-100 p-2 font-bold">
-              contact@newteksolutions.com
+              {{ state.job.company.contactEmail}}
             </p>
 
             <h3 class="text-xl">Contact Phone:</h3>
 
-            <p class="my-2 bg-green-100 p-2 font-bold">555-555-5555</p>
+            <p class="my-2 bg-green-100 p-2 font-bold"> {{ state.job.company.contactPhone }}</p>
           </div>
 
           <!-- Manage -->
           <div class="mt-6 rounded-lg bg-white p-6 shadow-md">
             <h3 class="mb-6 text-xl font-bold">Manage Job</h3>
-            <a href="add-job.html"
+            <RouterLink 
+            :to="`/jobs/edit/${jobId}`"
               class="focus:shadow-outline mt-4 block w-full rounded-full bg-green-500 px-4 py-2 text-center font-bold text-white hover:bg-green-600 focus:outline-none">Edit
-              Job</a>
-            <button
-              class="focus:shadow-outline mt-4 block w-full rounded-full bg-red-500 px-4 py-2 font-bold text-white hover:bg-red-600 focus:outline-none">
+              Job</RouterLink>
+            <RouterLink
+             :to="`/jobs/delete/${jobId}`"
+              class="focus:shadow-outline mt-4 block w-full rounded-full bg-red-500 px-4 py-2 text-center font-bold text-white hover:bg-red-600 focus:outline-none">
               Delete Job
-            </button>
-          </div>
+            </RouterLink>
+          </div>    
         </aside>
+        <aside v-else-if="state.isLoading">
+      <p>Chargement des données de l'emploi...</p>
+    </aside>
+    <aside v-else>
+      <p>Une erreur est survenue lors du chargement des données de l'emploi. Veuillez réessayer plus tard.</p>
+    </aside>
       </div>
     </div>
   </section>
