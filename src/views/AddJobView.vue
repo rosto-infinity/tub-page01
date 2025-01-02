@@ -1,9 +1,12 @@
 
 <script setup>
+import axios from 'axios';
+import router from '@/router';
+
 import { reactive } from 'vue';
 
 const form = reactive({
-  type: 'Full-Time',
+  type: 'Part-Time',
   title: '',
   description: '',
   salary: '',
@@ -15,6 +18,32 @@ const form = reactive({
   contactPhone: '',
 }
 });
+
+const handleSubmit = async () => {
+  // console.log(form);
+  const newJob ={
+    title: form.title,
+    type: form.type,
+    description: form.description,
+    salary: form.salary,
+    location: form.location,
+    company: {
+      name: form.company.name,
+      description: form.company.description,
+      contactEmail: form.company.contactEmail,
+      contactPhone: form.company.contactPhone,
+    },
+  };
+  
+  try{
+    const response = await axios.post('/api/jobs', newJob);
+    // @todo -show success message
+    router.push(`/jobs/${response.data.id}`);
+
+  } catch (error){
+    console.error('Erreur lors de la récupération de l\'emploi', error);
+  }
+};
 </script>
 <template>
   <section class="bg-green-50">
@@ -22,7 +51,7 @@ const form = reactive({
         <div
           class="m-4 mb-4 rounded-md border bg-white px-6 py-8 shadow-md md:m-0"
         >
-          <form>
+          <form @submit.prevent="handleSubmit" class="space-y-4">
             <h2 class="mb-6 text-center text-3xl font-semibold">Add Job</h2>
 
             <div class="mb-4">
@@ -30,6 +59,7 @@ const form = reactive({
                 >Job Type</label
               >
               <select
+              v-model="form.type"
                 id="type"
                 name="type"
                 class="w-full rounded border px-3 py-2"
@@ -47,6 +77,7 @@ const form = reactive({
                 >Job Listing Name</label
               >
               <input
+              v-model="form.title"
                 type="text"
                 id="name"
                 name="name"
@@ -62,6 +93,7 @@ const form = reactive({
                 >Description</label
               >
               <textarea
+              v-model="form.description"
                 id="description"
                 name="description"
                 class="w-full rounded border px-3 py-2"
@@ -75,6 +107,7 @@ const form = reactive({
                 >Salary</label
               >
               <select
+              v-model="form.salary"
                 id="salary"
                 name="salary"
                 class="w-full rounded border px-3 py-2"
@@ -99,6 +132,7 @@ const form = reactive({
                 Location
               </label>
               <input
+              v-model="form.location"
                 type="text"
                 id="location"
                 name="location"
@@ -115,6 +149,8 @@ const form = reactive({
                 >Company Name</label
               >
               <input
+              v-model="form.company.name"
+              
                 type="text"
                 id="company"
                 name="company"
@@ -130,6 +166,8 @@ const form = reactive({
                 >Company Description</label
               >
               <textarea
+              v-model="form.company.description"
+              
                 id="company_description"
                 name="company_description"
                 class="w-full rounded border px-3 py-2"
@@ -145,6 +183,8 @@ const form = reactive({
                 >Contact Email</label
               >
               <input
+              v-model="form.company.contactEmail"
+              
                 type="email"
                 id="contact_email"
                 name="contact_email"
@@ -160,6 +200,8 @@ const form = reactive({
                 >Contact Phone</label
               >
               <input
+              v-model="form.company.contactPhone"
+              
                 type="tel"
                 id="contact_phone"
                 name="contact_phone"

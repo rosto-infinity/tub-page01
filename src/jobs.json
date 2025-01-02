@@ -1,89 +1,214 @@
 {
-  
-  "jobs":[
-  {
-    "id": 1,
-    "title": "Développeur Vue Senior",
-    "type": "Temps Plein",
-    "description": "Nous recherchons un développeur Front-End talentueux pour rejoindre notre équipe à Boston, MA. Le candidat idéal aura de solides compétences en HTML, CSS et JavaScript, avec une expérience de travail avec des frameworks JavaScript modernes tels que Vue ou Angular.",
-    "location": "Boston, MA",
-    "salary": "70K $ - 80K $",
-    "company": {
-      "name": "NewTek Solutions",
-      "description": "NewTek Solutions est une entreprise technologique de premier plan spécialisée dans le développement web et les solutions numériques. Nous sommes fiers de fournir des produits et services de haute qualité à nos clients tout en favorisant un environnement de travail collaboratif et innovant.",
-      "contactEmail": "contact@teksolutions.com",
-      "contactPhone": "555-555-5555"
+  "jobs": [
+    {
+      "id": "1",
+      "title": "Développeur Vue Senior",
+      "type": "Temps Plein",
+      "description": "Nous recherchons un développeur Front-End talentueux pour rejoindre notre équipe à Boston, MA. Le candidat idéal aura de solides compétences en HTML, CSS et JavaScript, avec une expérience de travail avec des frameworks JavaScript modernes tels que Vue ou Angular.",
+      "location": "Boston, MA",
+      "salary": "70K $ - 80K $",
+      "company": {
+        "name": "NewTek Solutions",
+        "description": "NewTek Solutions est une entreprise technologique de premier plan spécialisée dans le développement web et les solutions numériques. Nous sommes fiers de fournir des produits et services de haute qualité à nos clients tout en favorisant un environnement de travail collaboratif et innovant.",
+        "contactEmail": "contact@teksolutions.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "2",
+      "title": "Ingénieur Front-End (Vue)",
+      "type": "Temps Plein",
+      "description": "Rejoignez notre équipe en tant que développeur Front-End dans la belle Miami, FL. Nous recherchons une personne motivée avec une passion pour la création d'applications web belles et réactives. Une expérience avec les principes de design UI/UX et une grande attention aux détails sont très souhaitables.",
+      "location": "Miami, FL",
+      "salary": "70K $ - 80K $",
+      "company": {
+        "name": "Veneer Solutions",
+        "description": "Veneer Solutions est une agence créative spécialisée dans le design et le développement numériques. Notre équipe est dédiée à repousser les limites de la créativité et de l'innovation pour offrir des résultats exceptionnels à nos clients.",
+        "contactEmail": "contact@loremipsum.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "3",
+      "title": "Développeur Vue.js",
+      "type": "Temps Plein",
+      "description": "Êtes-vous passionné par le développement front-end ? Rejoignez notre équipe dans le Brooklyn dynamique, NY, et travaillez sur des projets passionnants qui font la différence. Nous offrons une rémunération compétitive et un environnement de travail collaboratif où vos idées sont valorisées.",
+      "location": "Brooklyn, NY",
+      "salary": "70K $ - 80K $",
+      "company": {
+        "name": "Dolor Cloud",
+        "description": "Dolor Cloud est une entreprise technologique de premier plan spécialisée dans les solutions numériques pour les entreprises de toutes tailles. Avec un accent sur l'innovation et la satisfaction client, nous nous engageons à fournir des produits et services à la pointe de la technologie.",
+        "contactEmail": "contact@dolorsitamet.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "4",
+      "title": "Développeur Front-End Vue",
+      "type": "Temps Partiel",
+      "description": "Rejoignez notre équipe en tant que développeur Front-End à temps partiel dans la belle Pheonix, AZ. Nous recherchons une personne autonome avec une passion pour la création d'expériences utilisateur engageantes. Ce poste offre des horaires flexibles et la possibilité de travailler à distance.",
+      "location": "Pheonix, AZ",
+      "salary": "60K $ - 70K $",
+      "company": {
+        "name": "Alpha Elite",
+        "description": "Alpha Elite est une startup dynamique spécialisée dans le marketing numérique et le développement web. Nous nous engageons à favoriser un lieu de travail diversifié et inclusif où la créativité et l'innovation prospèrent.",
+        "contactEmail": "contact@adipisicingelit.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "5",
+      "title": "Développeur Full Stack Vue",
+      "type": "Temps Plein",
+      "description": "Opportunité passionnante pour un développeur Front-End à temps plein dans la dynamique Atlanta, GA. Nous recherchons une personne talentueuse avec une passion pour la construction d'applications web élégantes et évolutives. Rejoignez notre équipe et faites la différence !",
+      "location": "Atlanta, GA",
+      "salary": "90K $ - 100K $",
+      "company": {
+        "name": "Browning Technologies",
+        "description": "Browning Technologies est une entreprise technologique en forte croissance spécialisée dans les solutions de commerce électronique. Nous offrons un environnement de travail dynamique et collaboratif où les employés sont encouragés à penser de manière créative et à innover.",
+        "contactEmail": "contact@consecteturadipisicing.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "6",
+      "title": "Développeur Vue Native",
+      "type": "Temps Plein",
+      "description": "Rejoignez notre équipe en tant que développeur Front-End dans la belle Portland, OR. Nous recherchons une personne compétente et enthousiaste pour nous aider à créer des solutions web innovantes. Salaire compétitif et excellent package d'avantages disponibles.",
+      "location": "Portland, OR",
+      "salary": "100K $ - 110K $",
+      "company": {
+        "name": "Port Solutions INC",
+        "description": "Port Solutions est une entreprise technologique de premier plan spécialisée dans le développement de logiciels et le marketing numérique. Nous nous engageons à fournir à nos clients des solutions à la pointe de la technologie et à nos employés un environnement de travail soutenant et gratifiant.",
+        "contactEmail": "contact@ipsumlorem.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "id": "lzeffg6xl",
+      "title": "Anne Anderson",
+      "type": "Remote",
+      "description": "Eius culpa architec",
+      "salary": "$125K - $150K",
+      "location": "Dolores corporis inc",
+      "company": {
+        "name": "Whitehead Burns Inc",
+        "description": "Mollitia qui id quis",
+        "contactEmail": "fyzihuqo@mailinator.com",
+        "contactPhone": "+1 (123) 222-8397"
+      }
+    },
+    {
+      "id": "mt5sk7jku",
+      "title": "Coby Moore",
+      "type": "Part-Time",
+      "description": "Et amet et et et ut",
+      "salary": "$125K - $150K",
+      "location": "Sit anim duis tempo",
+      "company": {
+        "name": "Fields and Webb LLC",
+        "description": "Ut exercitationem er",
+        "contactEmail": "wesudezo@mailinator.com",
+        "contactPhone": "+1 (298) 322-5123"
+      }
+    },
+    {
+      "id": "x752c2t85",
+      "title": "Norman Day",
+      "type": "Internship",
+      "description": "Dolores ex non solut",
+      "salary": "$70K - $80K",
+      "location": "Autem nostrud ex per",
+      "company": {
+        "name": "Kinney Strong Co",
+        "description": "Esse non esse volup",
+        "contactEmail": "fizoqibida@mailinator.com",
+        "contactPhone": "+1 (329) 587-3684"
+      }
+    },
+    {
+      "id": "850j79c9i",
+      "title": "Calista Michael",
+      "type": "Full-Time",
+      "description": "Amet quae qui dolor",
+      "salary": "$70K - $80K",
+      "location": "Pariatur Est dolor",
+      "company": {
+        "name": "Silva and Sandoval Traders",
+        "description": "Aute enim aut sed ma",
+        "contactEmail": "zuza@mailinator.com",
+        "contactPhone": "+1 (648) 526-3952"
+      }
+    },
+    {
+      "id": "8eop5kdon",
+      "title": "Kimberly Smith",
+      "type": "Full-Time",
+      "description": "Explicabo Eveniet ",
+      "salary": "$70K - $80K",
+      "location": "Mollit dolores cillu",
+      "company": {
+        "name": "William Powers Trading",
+        "description": "Officia aliquid et o",
+        "contactEmail": "lewuga@mailinator.com",
+        "contactPhone": "+1 (197) 141-7565"
+      }
+    },
+    {
+      "id": "4dc1",
+      "title": "Chastity Moon",
+      "type": "Part-Time",
+      "description": "Eiusmod ut quia cill",
+      "salary": "$50K - $60K",
+      "location": "Est ut qui tenetur v",
+      "company": {
+        "name": "Glover and Vang LLC",
+        "description": "Voluptate commodo as",
+        "contactEmail": "zikamakuq@mailinator.com",
+        "contactPhone": "+1 (721) 859-5814"
+      }
+    },
+    {
+      "id": "e361",
+      "title": "Devinsto",
+      "type": "Part-Time",
+      "description": "Temporibus quia assu",
+      "salary": "$150K - $175K",
+      "location": "Modi libero aut ex n",
+      "company": {
+        "name": "Kelly Knox Inc",
+        "description": "Fugiat ea vel anim ",
+        "contactEmail": "jowov@mailinator.com",
+        "contactPhone": "+1 (598) 995-8111"
+      }
+    },
+    {
+      "id": "667d",
+      "title": "Briar Ellison",
+      "type": "Remote",
+      "description": "Velit nisi cumque e",
+      "salary": "$90K - $100K",
+      "location": "Ducimus ut est err",
+      "company": {
+        "name": "Logan Allen Plc",
+        "description": "Voluptates consectet",
+        "contactEmail": "jatyrex@mailinator.com",
+        "contactPhone": "+1 (911) 601-8396"
+      }
+    },
+    {
+      "id": "401f",
+      "title": "Denise Chavez",
+      "type": "Part-Time",
+      "description": "Nostrud iusto consec",
+      "salary": "$80K - $90K",
+      "location": "Necessitatibus bland",
+      "company": {
+        "name": "Castillo Lamb Associates",
+        "description": "Esse ipsum elit q",
+        "contactEmail": "wahikylo@mailinator.com",
+        "contactPhone": "+1 (612) 604-7979"
+      }
     }
-  },
-  {
-    "id": 2,
-    "title": "Ingénieur Front-End (Vue)",
-    "type": "Temps Plein",
-    "description": "Rejoignez notre équipe en tant que développeur Front-End dans la belle Miami, FL. Nous recherchons une personne motivée avec une passion pour la création d'applications web belles et réactives. Une expérience avec les principes de design UI/UX et une grande attention aux détails sont très souhaitables.",
-    "location": "Miami, FL",
-    "salary": "70K $ - 80K $",
-    "company": {
-      "name": "Veneer Solutions",
-      "description": "Veneer Solutions est une agence créative spécialisée dans le design et le développement numériques. Notre équipe est dédiée à repousser les limites de la créativité et de l'innovation pour offrir des résultats exceptionnels à nos clients.",
-      "contactEmail": "contact@loremipsum.com",
-      "contactPhone": "555-555-5555"
-    }
-  },
-  {
-    "id": 3,
-    "title": "Développeur Vue.js",
-    "type": "Temps Plein",
-    "description": "Êtes-vous passionné par le développement front-end ? Rejoignez notre équipe dans le Brooklyn dynamique, NY, et travaillez sur des projets passionnants qui font la différence. Nous offrons une rémunération compétitive et un environnement de travail collaboratif où vos idées sont valorisées.",
-    "location": "Brooklyn, NY",
-    "salary": "70K $ - 80K $",
-    "company": {
-      "name": "Dolor Cloud",
-      "description": "Dolor Cloud est une entreprise technologique de premier plan spécialisée dans les solutions numériques pour les entreprises de toutes tailles. Avec un accent sur l'innovation et la satisfaction client, nous nous engageons à fournir des produits et services à la pointe de la technologie.",
-      "contactEmail": "contact@dolorsitamet.com",
-      "contactPhone": "555-555-5555"
-    }
-  },
-  {
-    "id": 4,
-    "title": "Développeur Front-End Vue",
-    "type": "Temps Partiel",
-    "description": "Rejoignez notre équipe en tant que développeur Front-End à temps partiel dans la belle Pheonix, AZ. Nous recherchons une personne autonome avec une passion pour la création d'expériences utilisateur engageantes. Ce poste offre des horaires flexibles et la possibilité de travailler à distance.",
-    "location": "Pheonix, AZ",
-    "salary": "60K $ - 70K $",
-    "company": {
-      "name": "Alpha Elite",
-      "description": "Alpha Elite est une startup dynamique spécialisée dans le marketing numérique et le développement web. Nous nous engageons à favoriser un lieu de travail diversifié et inclusif où la créativité et l'innovation prospèrent.",
-      "contactEmail": "contact@adipisicingelit.com",
-      "contactPhone": "555-555-5555"
-    }
-  },
-  {
-    "id": 5,
-    "title": "Développeur Full Stack Vue",
-    "type": "Temps Plein",
-    "description": "Opportunité passionnante pour un développeur Front-End à temps plein dans la dynamique Atlanta, GA. Nous recherchons une personne talentueuse avec une passion pour la construction d'applications web élégantes et évolutives. Rejoignez notre équipe et faites la différence !",
-    "location": "Atlanta, GA",
-    "salary": "90K $ - 100K $",
-    "company": {
-      "name": "Browning Technologies",
-      "description": "Browning Technologies est une entreprise technologique en forte croissance spécialisée dans les solutions de commerce électronique. Nous offrons un environnement de travail dynamique et collaboratif où les employés sont encouragés à penser de manière créative et à innover.",
-      "contactEmail": "contact@consecteturadipisicing.com",
-      "contactPhone": "555-555-5555"
-    }
-  },
-  {
-    "id": 6,
-    "title": "Développeur Vue Native",
-    "type": "Temps Plein",
-    "description": "Rejoignez notre équipe en tant que développeur Front-End dans la belle Portland, OR. Nous recherchons une personne compétente et enthousiaste pour nous aider à créer des solutions web innovantes. Salaire compétitif et excellent package d'avantages disponibles.",
-    "location": "Portland, OR",
-    "salary": "100K $ - 110K $",
-    "company": {
-      "name": "Port Solutions INC",
-      "description": "Port Solutions est une entreprise technologique de premier plan spécialisée dans le développement de logiciels et le marketing numérique. Nous nous engageons à fournir à nos clients des solutions à la pointe de la technologie et à nos employés un environnement de travail soutenant et gratifiant.",
-      "contactEmail": "contact@ipsumlorem.com",
-      "contactPhone": "555-555-5555"
-    }
-  }
-]
+  ]
 }
