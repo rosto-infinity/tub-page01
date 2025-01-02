@@ -10,5 +10,6 @@ import App from './App.vue';
 const app = createApp(App);
 
 app.use(router);
+app.use(Toast);
 
 app.mount('#app');

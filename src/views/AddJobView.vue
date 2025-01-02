@@ -2,9 +2,9 @@
 <script setup>
 import router from '@/router';
 import { reactive } from 'vue';
-import  {useToast} from 'vue-toastification';
+import  { useToast} from 'vue-toastification';
 import axios from 'axios';
-import { useToast } from 'vue-toastification';
+
 
 
 const form = reactive({
@@ -20,7 +20,7 @@ const form = reactive({
   contactPhone: '',
 }
 });
-
+const toast = useToast();
 const handleSubmit = async () => {
   // console.log(form);
   const newJob ={
@@ -40,9 +40,11 @@ const handleSubmit = async () => {
   try{
     const response = await axios.post('/api/jobs', newJob);
     // @todo -show success message
+    toast.success('Job added successfully');
     router.push(`/jobs/${response.data.id}`);
   } catch (error){
     console.error('Erreur lors de la récupération de l\'emploi', error);
+    toast.error('An error occurred. Please try again');
   }
 };
 </script>
