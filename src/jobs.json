@@ -113,20 +113,6 @@
       }
     },
     {
-      "id": "8eop5kdon",
-      "title": "Kimberly Smith",
-      "type": "Full-Time",
-      "description": "Explicabo Eveniet ",
-      "salary": "$70K - $80K",
-      "location": "Mollit dolores cillu",
-      "company": {
-        "name": "William Powers Trading",
-        "description": "Officia aliquid et o",
-        "contactEmail": "lewuga@mailinator.com",
-        "contactPhone": "+1 (197) 141-7565"
-      }
-    },
-    {
       "id": "4dc1",
       "title": "Chastity Moon",
       "type": "Part-Time",
@@ -194,34 +180,6 @@
         "description": "Sed soluta sit mole",
         "contactEmail": "poxur@mailinator.com",
         "contactPhone": "+1 (756) 718-2889"
-      }
-    },
-    {
-      "id": "ab59",
-      "title": "Russell Mendoza",
-      "type": "Part-Time",
-      "description": "Tempora ea deserunt ",
-      "salary": "$80K - $90K",
-      "location": "Elit cupiditate ess",
-      "company": {
-        "name": "Lawrence Stewart Traders",
-        "description": "Quo vitae voluptatem",
-        "contactEmail": "komezed@mailinator.com",
-        "contactPhone": "+1 (279) 384-2183"
-      }
-    },
-    {
-      "id": "7d7f",
-      "title": "Shelley Moody",
-      "type": "Remote",
-      "description": "Facere alias odit re",
-      "salary": "$125K - $150K",
-      "location": "Facere nostrud quod ",
-      "company": {
-        "name": "Mccray and Harrington Inc",
-        "description": "Ea voluptatem quo q",
-        "contactEmail": "lytucivyze@mailinator.com",
-        "contactPhone": "+1 (209) 104-5621"
       }
     },
     {
@@ -334,34 +292,6 @@
         "description": "Est facere perferend",
         "contactEmail": "curijosu@mailinator.com",
         "contactPhone": "+1 (223) 325-3342"
-      }
-    },
-    {
-      "id": "c40e",
-      "title": "Cora Byrd",
-      "type": "Internship",
-      "description": "Consectetur pariatu",
-      "salary": "$90K - $100K",
-      "location": "Deserunt quis cupida",
-      "company": {
-        "name": "Clemons and Sherman Traders",
-        "description": "Est sint pariatur S",
-        "contactEmail": "gotazurazi@mailinator.com",
-        "contactPhone": "+1 (936) 681-3275"
-      }
-    },
-    {
-      "id": "6751",
-      "title": "Octavius Collier",
-      "type": "Full-Time",
-      "description": "Consequatur exceptu",
-      "salary": "Over $200K",
-      "location": "Consequat Porro est",
-      "company": {
-        "name": "Witt and Mann Co",
-        "description": "Non aspernatur dolor",
-        "contactEmail": "lura@mailinator.com",
-        "contactPhone": "+1 (356) 651-9834"
       }
     }
   ]
