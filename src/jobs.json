@@ -209,6 +209,34 @@
         "contactEmail": "wahikylo@mailinator.com",
         "contactPhone": "+1 (612) 604-7979"
       }
+    },
+    {
+      "id": "1371",
+      "title": "Mary Blankenship",
+      "type": "Internship",
+      "description": "Labore aliqua Quia ",
+      "salary": "$50K - $60K",
+      "location": "Dolores consequatur",
+      "company": {
+        "name": "Moreno and Powers Trading",
+        "description": "Sed soluta sit mole",
+        "contactEmail": "poxur@mailinator.com",
+        "contactPhone": "+1 (756) 718-2889"
+      }
+    },
+    {
+      "id": "ab59",
+      "title": "Russell Mendoza",
+      "type": "Part-Time",
+      "description": "Tempora ea deserunt ",
+      "salary": "$80K - $90K",
+      "location": "Elit cupiditate ess",
+      "company": {
+        "name": "Lawrence Stewart Traders",
+        "description": "Quo vitae voluptatem",
+        "contactEmail": "komezed@mailinator.com",
+        "contactPhone": "+1 (279) 384-2183"
+      }
     }
   ]
 }

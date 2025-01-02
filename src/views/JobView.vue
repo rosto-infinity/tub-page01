@@ -46,7 +46,7 @@
             <div class="mb-4 text-gray-500">{{ state.job.type}} </div>
             <h1 class="mb-4 text-3xl font-bold">{{ state.job.title }}</h1>
             <div class="mb-4 flex justify-center align-middle text-gray-500 md:justify-start">
-              <i class="fa-solid fa-location-dot mr-2 text-lg text-orange-700"></i>
+              <i class="pi pi-map-marker location-dot mr-2 text-lg text-orange-700"></i>
               <p class="text-orange-700">{{ state.job.location}}</p>
             </div>
           </div>
