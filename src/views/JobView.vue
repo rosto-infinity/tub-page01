@@ -1,5 +1,6 @@
 <script setup>
   import PulseLoader from 'vue-spinner/src/PulseLoader.vue';
+  import BackButton from '../components/BackButton.vue';
   import {reactive, onMounted} from 'vue';
   import { useRoute, RouterLink} from 'vue-router';
   import axios from 'axios';
@@ -17,7 +18,7 @@
 
   onMounted(async () => {
   try{
-    const response = await axios.get(`http://localhost:5000/jobs/${jobId}`);
+    const response = await axios.get(`/api/jobs/${jobId}`);
     // await new Promise((resolve) => setTimeout(resolve, 3000));
     state.job= response.data;
 
@@ -30,7 +31,7 @@
 });
 </script>
 <template>
-
+<BackButton />
   <section class="bg-green-50">
     <div class="container m-auto px-6 py-10">
       <div class="gridcols grid w-full grid-cols-1 gap-6 md:grid-cols-2">
