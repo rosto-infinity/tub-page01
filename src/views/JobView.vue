@@ -1,6 +1,6 @@
 <script setup>
   import PulseLoader from 'vue-spinner/src/PulseLoader.vue';
-  import BackButton from '../components/BackButton.vue';
+  import BackButton from '@/components/BackButton.vue';
   import {reactive, onMounted} from 'vue';
   import { useRoute, RouterLink} from 'vue-router';
   import axios from 'axios';
