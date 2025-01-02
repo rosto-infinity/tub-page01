@@ -1,9 +1,11 @@
 
 <script setup>
-import axios from 'axios';
 import router from '@/router';
-
 import { reactive } from 'vue';
+import  {useToast} from 'vue-toastification';
+import axios from 'axios';
+import { useToast } from 'vue-toastification';
+
 
 const form = reactive({
   type: 'Part-Time',
@@ -39,7 +41,6 @@ const handleSubmit = async () => {
     const response = await axios.post('/api/jobs', newJob);
     // @todo -show success message
     router.push(`/jobs/${response.data.id}`);
-
   } catch (error){
     console.error('Erreur lors de la récupération de l\'emploi', error);
   }
