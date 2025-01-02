@@ -21,6 +21,7 @@ const truncatedDescription = computed(() => {
 });
 </script>
 <template>
+  
 <!-- Job Listing 1 -->
 <div class="relative rounded-xl bg-white shadow-md">
             <div class="p-4">
