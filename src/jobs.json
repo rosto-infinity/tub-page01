@@ -181,6 +181,76 @@
         "contactEmail": "fute@mailinator.com",
         "contactPhone": "+1 (908) 127-7251"
       }
+    },
+    {
+      "id": "9404",
+      "title": "Développeur Vue.js",
+      "type": "Full-Time",
+      "description": "Êtes-vous passionné par le développement front-end ? Rejoignez notre équipe dans le Brooklyn dynamique, NY, et travaillez sur des projets passionnants qui font la différence. Nous offrons une rémunération compétitive et un environnement de travail collaboratif où vos idées sont valorisées.",
+      "salary": "$60K - $70K",
+      "location": "Brooklyn, NY",
+      "company": {
+        "name": "Dolor Cloud",
+        "description": "Dolor Cloud est une entreprise technologique de premier plan spécialisée dans les solutions numériques pour les entreprises de toutes tailles. Avec un accent sur l'innovation et la satisfaction client, nous nous engageons à fournir des produits et services à la pointe de la technologie.",
+        "contactEmail": "contact@dolorsitamet.com",
+        "contactPhone": "555-555-5555"
+      }
+    },
+    {
+      "title": "Développeur Vue.js",
+      "type": "Remote",
+      "description": "Êtes-vous passionné par le développement front-end ? Rejoignez notre équipe dans le Brooklyn dynamique, NY, et travaillez sur des projets passionnants qui font la différence. Nous offrons une rémunération compétitive et un environnement de travail collaboratif où vos idées sont valorisées.",
+      "salary": "$60K - $70K",
+      "location": "Brooklyn, NY",
+      "company": {
+        "name": "Dolor Cloud",
+        "description": "Dolor Cloud est une entreprise technologique de premier plan spécialisée dans les solutions numériques pour les entreprises de toutes tailles. Avec un accent sur l'innovation et la satisfaction client, nous nous engageons à fournir des produits et services à la pointe de la technologie.",
+        "contactEmail": "contact@dolorsitamet.com",
+        "contactPhone": "555-555-5555"
+      },
+      "id": "0663"
+    },
+    {
+      "id": "149c",
+      "title": "Vue.js est un framework JavaScript",
+      "type": "Full-Time",
+      "description": "Vue.js est un framework JavaScript progressif utilisé pour construire des interfaces utilisateur. Il se distingue par sa facilité d'utilisation, sa flexibilité et sa performance.\n\nDans cette formation nous allons commencer par découvrir les bases du framework (la syntaxe, la réactivité...). Puis, après quelques exercices, on étudiera plus en profondeur le fonctionnement interne de Vue.js pour comprendre ses subtilités et découvrir des cas d'utilisations plus spécifiques.\n\nEnfin, on finira en étudiant l'écosystème autour de Vue.js pour découvrir les librairies intéressantes.\nVue.js est un framework JavaScript progressif utilisé pour construire des interfaces utilisateur. Il se distingue par sa facilité d'utilisation, sa flexibilité et sa performance.\n\nDans cette formation nous allons commencer par découvrir les bases du framework (la syntaxe, la réactivité...). Puis, après quelques exercices, on étudiera plus en profondeur le fonctionnement interne de Vue.js pour comprendre ses subtilités et découvrir des cas d'utilisations plus spécifiques.\n\nEnfin, on finira en étudiant l'écosystème autour de Vue.js pour découvrir les librairies intéressantes.",
+      "salary": "$90K - $100K",
+      "location": "Cupiditate qui cillu",
+      "company": {
+        "name": "Barry Ford Traders",
+        "description": "Qui ea sunt quis id ",
+        "contactEmail": "fute@mailinator.com",
+        "contactPhone": "+1 (908) 127-7251"
+      }
+    },
+    {
+      "id": "317c",
+      "title": "Blaze Bullock",
+      "type": "Full-Time",
+      "description": "Placeat repudiandae",
+      "salary": "$100K - $125K",
+      "location": "Vitae laboris minus ",
+      "company": {
+        "name": "Ware and Foster LLC",
+        "description": "Alias distinctio Of",
+        "contactEmail": "qopapedyde@mailinator.com",
+        "contactPhone": "+1 (828) 668-5119"
+      }
+    },
+    {
+      "id": "15a3",
+      "title": "Maggy Henson",
+      "type": "Full-Time",
+      "description": "Pariatur Aliquam ma",
+      "salary": "Over $200K",
+      "location": "Quasi ab labore adip",
+      "company": {
+        "name": "Meyer Ochoa Plc",
+        "description": "Dolore dolore aut te",
+        "contactEmail": "pymahezor@mailinator.com",
+        "contactPhone": "+1 (809) 599-3621"
+      }
     }
   ]
 }
