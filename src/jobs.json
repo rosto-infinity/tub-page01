@@ -71,90 +71,6 @@
       }
     },
     {
-      "id": "6",
-      "title": "Développeur Vue Native",
-      "type": "Temps Plein",
-      "description": "Rejoignez notre équipe en tant que développeur Front-End dans la belle Portland, OR. Nous recherchons une personne compétente et enthousiaste pour nous aider à créer des solutions web innovantes. Salaire compétitif et excellent package d'avantages disponibles.",
-      "location": "Portland, OR",
-      "salary": "100K $ - 110K $",
-      "company": {
-        "name": "Port Solutions INC",
-        "description": "Port Solutions est une entreprise technologique de premier plan spécialisée dans le développement de logiciels et le marketing numérique. Nous nous engageons à fournir à nos clients des solutions à la pointe de la technologie et à nos employés un environnement de travail soutenant et gratifiant.",
-        "contactEmail": "contact@ipsumlorem.com",
-        "contactPhone": "555-555-5555"
-      }
-    },
-    {
-      "id": "mt5sk7jku",
-      "title": "Coby Moore",
-      "type": "Part-Time",
-      "description": "Et amet et et et ut",
-      "salary": "$125K - $150K",
-      "location": "Sit anim duis tempo",
-      "company": {
-        "name": "Fields and Webb LLC",
-        "description": "Ut exercitationem er",
-        "contactEmail": "wesudezo@mailinator.com",
-        "contactPhone": "+1 (298) 322-5123"
-      }
-    },
-    {
-      "id": "x752c2t85",
-      "title": "Norman Day",
-      "type": "Internship",
-      "description": "Dolores ex non solut",
-      "salary": "$70K - $80K",
-      "location": "Autem nostrud ex per",
-      "company": {
-        "name": "Kinney Strong Co",
-        "description": "Esse non esse volup",
-        "contactEmail": "fizoqibida@mailinator.com",
-        "contactPhone": "+1 (329) 587-3684"
-      }
-    },
-    {
-      "id": "4dc1",
-      "title": "Chastity Moon",
-      "type": "Part-Time",
-      "description": "Eiusmod ut quia cill",
-      "salary": "$50K - $60K",
-      "location": "Est ut qui tenetur v",
-      "company": {
-        "name": "Glover and Vang LLC",
-        "description": "Voluptate commodo as",
-        "contactEmail": "zikamakuq@mailinator.com",
-        "contactPhone": "+1 (721) 859-5814"
-      }
-    },
-    {
-      "id": "e361",
-      "title": "Devinsto",
-      "type": "Part-Time",
-      "description": "Temporibus quia assu",
-      "salary": "$150K - $175K",
-      "location": "Modi libero aut ex n",
-      "company": {
-        "name": "Kelly Knox Inc",
-        "description": "Fugiat ea vel anim ",
-        "contactEmail": "jowov@mailinator.com",
-        "contactPhone": "+1 (598) 995-8111"
-      }
-    },
-    {
-      "id": "667d",
-      "title": "Briar Ellison",
-      "type": "Remote",
-      "description": "Velit nisi cumque e",
-      "salary": "$90K - $100K",
-      "location": "Ducimus ut est err",
-      "company": {
-        "name": "Logan Allen Plc",
-        "description": "Voluptates consectet",
-        "contactEmail": "jatyrex@mailinator.com",
-        "contactPhone": "+1 (911) 601-8396"
-      }
-    },
-    {
       "id": "401f",
       "title": "Denise Chavez",
       "type": "Part-Time",
@@ -225,20 +141,6 @@
       }
     },
     {
-      "id": "4d28",
-      "title": "Ethan Simpson",
-      "type": "Internship",
-      "description": "Suscipit ea aliquip ",
-      "salary": "$70K - $80K",
-      "location": "Dolor obcaecati aute",
-      "company": {
-        "name": "Fields Simon Traders",
-        "description": "Voluptatem incidunt",
-        "contactEmail": "quwepo@mailinator.com",
-        "contactPhone": "+1 (969) 854-5666"
-      }
-    },
-    {
       "id": "a37b",
       "title": "Troy Romero",
       "type": "Remote",
@@ -267,31 +169,17 @@
       }
     },
     {
-      "id": "bc26",
-      "title": "Alfonso Bonner",
+      "id": "deb4",
+      "title": "Adena Booth",
       "type": "Remote",
-      "description": "Optio dolore duis v",
-      "salary": "Under $50K",
-      "location": "Nulla dolor quia sun",
+      "description": "Quis aut voluptatem",
+      "salary": "$90K - $100K",
+      "location": "Cupiditate qui cillu",
       "company": {
-        "name": "Blackwell and Rollins Associates",
-        "description": "Est nisi labore sit ",
-        "contactEmail": "kycecopit@mailinator.com",
-        "contactPhone": "+1 (707) 308-8061"
-      }
-    },
-    {
-      "id": "726c",
-      "title": "Dalton Gallagher",
-      "type": "Full-Time",
-      "description": "In facilis veniam i",
-      "salary": "$175K - $200K",
-      "location": "Duis consectetur eo",
-      "company": {
-        "name": "Benjamin Melendez Plc",
-        "description": "Est facere perferend",
-        "contactEmail": "curijosu@mailinator.com",
-        "contactPhone": "+1 (223) 325-3342"
+        "name": "Barry Ford Traders",
+        "description": "Qui ea sunt quis id ",
+        "contactEmail": "fute@mailinator.com",
+        "contactPhone": "+1 (908) 127-7251"
       }
     }
   ]
