@@ -3,7 +3,7 @@ import HomeView from '../views/HomeView.vue';
 import JobsView from '../views/JobsView.vue';
 import NotFoundView from '../views/NotFoundView.vue';
 import JobView from '../views/JobView.vue';
-import AddJobView from '@/views/AddJobView.vue';
+import AddJobView from '@/views/ajouter/ajout/AddJobView.vue';
 import EditJobView from '../views/EditJobView.vue';
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
