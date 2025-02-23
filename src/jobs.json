@@ -99,7 +99,6 @@
       }
     },
     {
-      "id": "838d",
       "title": "Austin Barnett",
       "type": "Full-Time",
       "description": "Beatae quaerat sint",
@@ -110,7 +109,8 @@
         "description": "Aut sit doloribus et",
         "contactEmail": "mero@mailinator.com",
         "contactPhone": "+1 (735) 964-4197"
-      }
+      },
+      "id": "838d"
     },
     {
       "id": "18ca",
